@@ -11,6 +11,8 @@
   <body>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
+    <%= link_to "sign Up", new_user_registration_path %>
+    <%= link_to "sign In", new_user_session_path %>
     <%= yield %>
   </body>
 </html>
